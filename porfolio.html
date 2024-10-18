@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="/output.css">
+</head>
+<body>
+    <header class="bg-slate-600 flex flex-col items-center p-5">
+        <h1 class="text-3xl text-white font-bold mb-4 text-center">Martha Wambui</h1>
+        <nav>
+            <ul class="flex list-none space-x-8">
+                <li>
+                    <a href="#home" class="text-gray-200 hover:text-blue-400 transition duration-300">Home</a>
+                </li>
+                <li>
+                    <a href="#projects" class="text-gray-200 hover:text-blue-400 transition duration-300">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="text-gray-200 hover:text-blue-400 transition duration-300">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <div class="flex items-center justify-center h-screen bg-black bg-opacity-50">
+            <h2 class="text-white text-4xl md:text-6xl font-semibold">Hello, I'm Martha Wambui</h2>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-10">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-5">My Skills</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-5 bg-white shadow-md rounded">
+                    <h4 class="font-semibold">Skill 1</h4>
+                    <p>Description of skill 1.</p>
+                </div>
+                <div class="p-5 bg-white shadow-md rounded">
+                    <h4 class="font-semibold">Skill 2</h4>
+                    <p>Description of skill 2.</p>
+                </div>
+                <div class="p-5 bg-white shadow-md rounded">
+                    <h4 class="font-semibold">Skill 3</h4>
+                    <p>Description of skill 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-10 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-5">My Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="project-image1.jpg" alt="Project 1">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Project Title 1</div>
+                        <p class="text-gray-700 text-base">Description of project 1.</p>
+                    </div>
+                </div>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="project-image2.jpg" alt="Project 2">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Project Title 2</div>
+                        <p class="text-gray-700 text-base">Description of project 2.</p>
+                    </div>
+                </div>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="project-image3.jpg" alt="Project 3">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Project Title 3</div>
+                        <p class="text-gray-700 text-base">Description of project 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-10">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-5">Get in Touch</h3>
+            <form class="max-w-lg mx-auto bg-white p-6 rounded shadow-md">
+                <div class="mb-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Your Email" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Your Message" class="w-full p-2 border rounded" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-700 text-white p-3 mt-6 rounded transition duration-300 ease-in-out hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-5">
+        <div class="container mx-auto flex justify-between items-center">
+            <p class="text-gray-600">© 2024 Your Name. All rights reserved.</p>
+            <div class="space-x-4">
+                <a href="#"><img src="download.png" alt="Download" height="30" width="30"></a>
+                <a href="#"><img src="fb.jfif" alt="Facebook" height="30" width="30"></a>
+                <a href="#"><img src="li.png" alt="LinkedIn" height="30" width="30"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
